@@ -1,12 +1,15 @@
 application: arquitetura-site
-version: 1
-runtime: python
+version: novo
+runtime: python27
 api_version: 1
+threadsafe: true
 
 handlers:
 - url: /
-  static_files: static_files/index.htm
-  upload: static_files/index.htm
+  static_files: static_files/index.html
+  upload: static_files/index.html
+  expiration: 1d
 
 - url: /
   static_dir: static_files
+  expiration: 30d
