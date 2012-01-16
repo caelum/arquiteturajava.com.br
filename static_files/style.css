@@ -579,7 +579,6 @@ header h2:after {
 }
 header .compreja {
   margin-left: 40%;
-  margin-top: 2.5%;
   width: 58%;
 }
 header img {
@@ -632,10 +631,19 @@ header #logos a[href='http://www.caelum.com.br'] {
 .compreja {
   text-align: center;
 }
+.compreja h3 {
+  font-family: 'Tienne', serif;
+  color: #999;
+  font-size: 190%;
+  font-weight: lighter;
+  margin: 10px;
+  text-shadow: 0px -1px 1px rgba(200, 200, 200, 0.5);
+}
 .compreja a {
   background: #ff7f00;
   color: white;
-  font-size: 190%;
+  font-size: 150%;
+  font-weight: normal;
   padding: 6px 4%;
 }
 .compreja a:hover {
@@ -1187,6 +1195,7 @@ footer #logos a[href='http://www.caelum.com.br'] {
   }
   .compreja {
     font-size: 12px;
+    margin-top: 30px;
   }
 }
 @media only screen and (max-width: 820px) {
@@ -1194,6 +1203,7 @@ footer #logos a[href='http://www.caelum.com.br'] {
     height: 450px;
   }
   header p {
+    padding-top: 10px;
     padding-left: 0;
     padding-right: 0;
     width: 57%;
@@ -1218,6 +1228,13 @@ footer #logos a[href='http://www.caelum.com.br'] {
   #conteudo h1 + ol {
     width: 96%;
   }
+  .compreja {
+    margin-top: 20px;
+  }
+  .compreja h3 {
+    font-size: 170%;
+    margin: 5px 0;
+  }
 }
 @media only screen and (max-width: 730px) {
   header, .compreja {
@@ -1231,6 +1248,15 @@ footer #logos a[href='http://www.caelum.com.br'] {
   }
   header img {
     width: 35%;
+  }
+  .compreja {
+    margin-top: 12px;
+  }
+  .compreja h3 {
+    margin: 0;
+  }
+  .compreja a {
+    font-size: 175%;
   }
   #descricao #texto {
     margin-left: 12%;
@@ -1321,6 +1347,13 @@ footer #logos a[href='http://www.caelum.com.br'] {
     margin-left: 5px;
     margin-right: 5px;
   }
+  .compreja {
+    margin-top: 8px;
+  }
+  .compreja a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
   section h1 {
     font-size: 180%;
   }
@@ -1355,9 +1388,6 @@ footer #logos a[href='http://www.caelum.com.br'] {
     top: 230px;
     width: 300px;
   }
-  .compreja {
-    font-size: 9px;
-  }
 }
 @media only screen and (max-width: 522px) {
   header {
@@ -1379,12 +1409,11 @@ footer #logos a[href='http://www.caelum.com.br'] {
   }
   header .compreja {
     margin-left: 37%;
-    margin-top: 12%;
+    margin-top: 5%;
     width: 60%;
   }
-  header .compreja a {
-    padding-left: 3px;
-    padding-right: 3px;
+  .compreja h3 {
+    margin: 10px 0;
   }
   #descricao {
     padding-top: 0;
@@ -1465,7 +1494,7 @@ footer #logos a[href='http://www.caelum.com.br'] {
     padding-bottom: 15px;
   }
   .compreja a {
-    padding: 8px 2%;
+    padding: 5px 8px;
   }
   .compreja span {
     font-size: 150%;
@@ -1500,9 +1529,8 @@ footer #logos a[href='http://www.caelum.com.br'] {
     margin: 3em auto;
     width: 100%;
   }
-  header .compreja a {
-    padding-left: 2%;
-    padding-right: 2%;
+  header .compreja span {
+    margin-top: 10px;
   }
   #descricao #social {
     display: block;
