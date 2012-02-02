@@ -21,5 +21,23 @@
 	
 	<img src="img/capa-livro.png" alt="Capa do livro">
 	
+	<script>
+	// base
+	function loadAsync(url) {
+		var e = document.createElement('script'); 
+		e.type = 'text/javascript'; 
+		e.async = true;
+		e.src = url;
+
+		var s = document.getElementsByTagName('script')[0]; 
+		s.parentNode.insertBefore(e, s);
+		return s;
+	}
+
+	// analytics
+	window._gaq = [['_setAccount','UA-270161-10'],['_trackPageview']];
+	loadAsync('http://www.google-analytics.com/ga.js');
+	</script>
+
 </body>
 </html>
