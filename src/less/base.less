@@ -1,0 +1,29 @@
+// habilita o novo box-sizing
+* {
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	box-sizing : border-box;
+}
+
+// estrutura basica
+html {
+	background: url(../img/bg.gif) repeat;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	margin: 0;
+}
+
+header, section, .container {
+	width: 100%;
+}
+
+// highlight do texto
+::-moz-selection, ::selection { 
+	background: #005a82; 
+	color: #fff; 
+	text-shadow: none; 
+}

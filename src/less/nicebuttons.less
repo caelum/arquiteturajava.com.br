@@ -45,8 +45,8 @@
     /* Cross browser inline block hack - http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
     display: -moz-inline-stack;
     display: inline-block;
+    *display: inline !important; /* nao pode ser o ultimo por causa do n95 */
     vertical-align: middle;
-    *display: inline !important;
     }
     .nicebutton:hover {
         /* fundo gradiente */

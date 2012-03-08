@@ -1,0 +1,30 @@
+
+// força o dropbox a servir utf-8. remover isso daqui!!
+#dropbox-bug {
+	content: 'õéáç';
+}
+
+@import "html5-boilerplate";
+@import "nicebuttons";
+@import "base";
+@import "layout";
+
+@import "320";
+@import "480";
+@import "600";
+@import "768";
+@import "992";
+
+// aplica todos os estilos de ate desktop
+.320up();
+.480up();
+.600up();
+.768up();
+.992up();
+
+// fixes específicos pro IE8
+.ie {
+	header:after {
+		display: none;
+	}
+}

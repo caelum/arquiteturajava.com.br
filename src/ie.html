@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Livro Arquitetura e Design Java</title>
+    <style>
+		html { 	background: url(img/ie-bg.png) no-repeat center 100px; padding: 0; }
+		body { text-align: center; padding: 0; margin: 0;}
+		div { margin: 0; width: 100%; background: #ffff66; padding: 5px 0;}
+		h1 { color: #555; font-size: 130%; } 
+		p { font-size: 110%; color: #222; }  
+		img { margin: 0 auto; }
+    </style>
+</head>
+<body>
+	
+	<div>
+		<h1>Sinto muito, o Site do Livro de Arquitetura Java nao funciona em navegadores antigos.</h1>
+		<p>Instale um navegador mais atual ou va direto <a href="http://compare.buscape.com.br/prod_unico?idu=1853525029&ordem=nota">comprar o livro</a>.</p>
+	</div>
+	
+	
+	<script>
+	// base
+	function loadAsync(url) {
+		var e = document.createElement('script'); 
+		e.type = 'text/javascript'; 
+		e.async = true;
+		e.src = url;
+
+		var s = document.getElementsByTagName('script')[0]; 
+		s.parentNode.insertBefore(e, s);
+		return s;
+	}
+
+	// analytics
+	window._gaq = [['_setAccount','UA-270161-10'],['_trackPageview']];
+	loadAsync('http://www.google-analytics.com/ga.js');
+	</script>
+
+</body>
+</html>
