@@ -5,6 +5,22 @@ Código fonte do Site http://arquiteturajava.com.br disponível para estudo.
 
 É um exemplo de **Responsive Design** usando **media queries**. Funciona em mobile e Desktop.
 
+Build
+=====
+
+O build é feito pelo Grunt. Se não tiver instalado, faça:
+   
+   npm install grunt -g
+
+Em desenvolvimento, pra buildar o less, rode:
+
+   grunt watch
+
+Pra buildar a versão final de deploy, faça:
+
+   ./build/build.sh
+
+
 Suporte e testes
 ================
 
